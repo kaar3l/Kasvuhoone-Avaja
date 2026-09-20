@@ -1,4 +1,4 @@
-# R2hni-Kasvuhoone-Avaja
+# Kasvuhoone-Avaja
 
 Automatic greenhouse vent door controller for ESP32 (LilyGO TTGO T-Display).
 
