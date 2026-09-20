@@ -73,3 +73,11 @@ mismatch returns a `-127.0` sentinel, which the control logic treats as
 - `maxDoorState = 700` encoder steps is the safe max travel; 750+ bends the
   door hardware.
 - Measured full close travel: ~250sec (4min10sec).
+
+## PCB
+
+<p align="center"><img src="docs/images/pcb-layout.png" width="500" alt="Kasvuhoone Ukse Kontroller PCB layout"></p>
+
+Custom board for the ESP32-LilyGO with two relay outputs (motor direction),
+home/rotation sensor headers, and a step-down for 12V input. Gerber files for
+fabrication are in [`hardware/`](hardware/).
